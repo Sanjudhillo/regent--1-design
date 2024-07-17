@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.back_img_office {
+    background-image: url(./image/png/working\ men\ img.png);
+    min-height: 970px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo_img_back {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 12px 42px 13px 42px;
+}
+
+.btn {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.pos_box {
+    position: absolute;
+    top: 77%;
+    left: 1;
+}
+
+.pt_100 {
+    padding-top: 100px;
+}
+
+.fw_500 {
+    font-weight: 500px;
+}
+
+.plr_171 {
+    padding-left: 171px;
+    padding-right: 171px;
+}
+
+.w_61 {
+    width: 61%;
+
+}
+.h_w_80{
+    height: 80px;
+    width: 80px;
+}
+.just_center {
+    justify-content: center;
+}
+
+.line1 {
+    left: 22%;
+    position: absolute;
+    width: 800px;
+    height: 2px;
+    border: 1px solid;
+    background-color:white;
+    opacity: 60%;
+}
+.line2{
+    left: 22%;
+    position: absolute;
+    top: 0;
+    left: 54%;
+    width: 2px;
+    height: 380px;
+    border: 1px solid;
+    background-color:white;
+    opacity: 60%;
+    motion-rotation: -90;
+
+}
+.line3{
+    left: 22%;
+    position: absolute;
+    top: 0;
+    left: 70%;
+    width: 2px;
+    height: 380px;
+    border: 1px solid;
+    background-color:white;
+    opacity: 60%;
+    motion-rotation: -90;
+    overflow: hidden;
+
+}
+.ref_pos{
+    position: absolute;
+    top: -50%;
+    left: 35%;
+    overflow: hidden;
+}
+.ref_featurepnt{
+    position: absolute;
+    top: -35%;
+}
+.back_img_stars_422{
+    background-image: url(./image/png/stars\ 6.png);
+    min-height: 300px;
+}
+.ref_pos_partners{
+    position: absolute;
+    right: -5%;
+    top: -70%;
+}
+.rotate_pos{
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 100%;
+
+}
+.opacity_30{
+    opacity: 30%;
+}
+.opacity_40{
+    opacity: 40%;
+}
