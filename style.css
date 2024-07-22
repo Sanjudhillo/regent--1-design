@@ -9,7 +9,9 @@
     text-decoration: none;
     font-family: "Outfit";
 }
-
+body{
+    background-color: #000;
+}
 .container {
     max-width: 1200px;
     margin: auto;
@@ -28,7 +30,7 @@
 }
 
 .navbar {
-    background-color: #99999933;
+    background-color: #99999933 ;
 }
 
 .w_50 {
@@ -47,10 +49,12 @@
     border-radius: 20px;
 }
 
-.h_50 {
+.h_45 {
+    height: 45px;
+}
+.h_70{
     height: 70px;
 }
-
 .mr_50 {
     margin-right: 120px;
 }
@@ -59,6 +63,9 @@
     color: #fff;
 }
 
+.text_grn:hover {
+   color: #0099A1;
+}
 .back_seagrn {
     background-color: #51F1F9;
 
@@ -106,12 +113,19 @@
 
 .back_black {
     background-color: linear-gradient(90.91deg, #000000 36.48%, rgba(0, 0, 0, 0) 135.32%);
+    background-repeat: no-repeat;
 
 }
 
 .back_home_page {
     background-image: url(./image/png/Home\ page\ img.png);
+    background-size:cover;
+    /* min-height: 150vh; */
+    background-repeat: no-repeat;
+    /* background-size: cover;
+     */
 }
+
 
 .btn {
     padding: 17px 30px;
@@ -124,9 +138,9 @@
 }
 
 .btn:hover {
-    background-color: #000 !important;
-    color: #51F1F9 !important;
-    border: 1px solid #51F1F9 !important;
+    background-color: #000;
+    color: #51F1F9;
+    border: 1px solid #51F1F9 ;
 }
 .nav-items li:hover{
   color: #009CB9 !important;
@@ -260,11 +274,16 @@
 
 .back_black1 {
     background-color: #000;
+    background-repeat: no-repeat;
 }
 
 .back_img_stars {
-    background-image: url(./image/png/stars\ 6.png) !important;
-    min-height: 600px;
+    background-image: url(./image/png/star\ img\ regent\ 2.png) !important;
+    /* min-height: 600px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* overflow: hidden; */
 }
 
 .fs_56 {
@@ -326,7 +345,7 @@
 }
 
 .z-index {
-    z-index: 1;
+    z-index: 1 !important;
 }
 
 .h_100 {
@@ -342,7 +361,9 @@
 .fs_38 {
     font-size: 38px;
 }
-
+.card:hover+div{
+    background: linear-gradient(180deg, rgba(20, 205, 222, 0.406) 0%, #000000 179.74%);
+}
 .text_light {
     color: #809394;
 }
@@ -385,6 +406,7 @@
 
 .card:hover {
     background-color: #0099A1;
+    
 }
 
 .back_grey {
@@ -423,14 +445,14 @@
     height: 30px;
 }
 
-.line_pos {
+/* .line_pos {
     position: absolute;
     top: -210px;
     z-index: 1;
     left: 0%;
     width: 100%;
     opacity: 50%;
-}
+} */
 
 /* .ref_pos_ourservice {
     position: absolute;
@@ -451,17 +473,26 @@
 .ellipse3{
     position: absolute;
     left: 0;
-    top: -40%;
+    /* top: -40%; */
+    z-index: -1 !important;
+}
+.ellipse3_footer{
+    position: absolute;
+    left: 0;
+    top: -310%;
 }
 .ellipse_3_service{
     position: absolute;
     left: 0;
     top: 0;
+  
+    
 }
 .ref_pos_lady {
     position: absolute;
     top: 320%;
     right: -8.2%;
+    z-index: 1;
 
 }
 
@@ -479,12 +510,19 @@
     background-color: #D9D9D9;
     border-radius: 0px 50px 50px 0px;
     padding: 17px 98px 19px 69px;
+    position: absolute;
+    top: -10%;
 }
-
+.just_right{
+    justify-content: right;
+} 
 .radius_right_20 {
     border-radius: 0px 20px 20px 0px;
 }
 
 .pt_13 {
     padding-top: 13px;
+}
+.line_height_40{
+    line-height: 40px;
 }
