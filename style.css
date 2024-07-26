@@ -367,10 +367,6 @@ body {
     font-size: 38px;
 }
 
-/* .card-box:hover .card {
-    background-color: red;
-} */
-
 .text_light {
     color: #809394;
 }
@@ -410,11 +406,6 @@ body {
 .pt_50 {
     padding-top: 50px;
 }
-
-/* .card:hover {
-    background-color: #0099A1;
-
-} */
 
 .back_grey {
     background-color: #1c1c1c;
@@ -467,7 +458,6 @@ body {
 .ellipse3 {
     position: absolute;
     left: 0;
-    /* top: -40%; */
     z-index: -1 !important;
 }
 
@@ -492,13 +482,6 @@ body {
     z-index: 1;
 
 }
-
-/* .ref_pos_bottom {
-    position: absolute;
-    top: 370%;
-   
-} */
-
 .over_hidden {
     overflow: hidden !important;
 }
