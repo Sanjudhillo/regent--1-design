@@ -8,6 +8,7 @@
     list-style: none;
     text-decoration: none;
     font-family: "Outfit";
+    scroll-behavior: smooth;
 }
 
 body {
@@ -473,7 +474,7 @@ body {
 
 }
 .over_hidden {
-    overflow: hidden !important;
+    overflow-x: hidden;
 }
 
 .logo_img {

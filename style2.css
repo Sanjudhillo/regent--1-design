@@ -22,7 +22,9 @@ body{
     padding-left: 150px;
     padding-right: 150px;
 }
-
+/* .over_x_hidden{
+overflow-x:hidden;
+} */
 .pos_box {
     position: absolute;
     top: 77%;
@@ -133,7 +135,7 @@ body{
 }
 .ref_pos_partners{
     position: absolute;
-    right: -5%;
+    right: 0;
     top: -70%;
 }
 .rotate_pos{
